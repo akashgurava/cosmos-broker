@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "COSMOS_HOST": "XXX",
+    "COSMOS_PRIMARY_KEY": "XXX",
+    "COSMOS_SECONDARY_KEY": "XXX",
+    "COSMOS_DB": "test",
+    "COSMOS_CONTAINERS": "{ 'transactions': 'uid', 'data': 'uid', }",
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node"
+  }
+}

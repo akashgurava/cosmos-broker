@@ -1,0 +1,21 @@
+{
+  "name": "cosmos-broker",
+  "version": "1.0.0",
+  "description": "An Azure Functions app which acts a Token Generation broker for CosmosDB.",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/cosmos": "^3.7.4"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "@types/node": "^14.0.23",
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^3.3.3"
+  }
+}
